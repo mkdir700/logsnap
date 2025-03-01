@@ -1,0 +1,51 @@
+Log file created at: 2025/03/01 17:12:09
+Running on machine: xyz-Workstation
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E20250301 17:12:09.405081 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:09.406114 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:10.406637 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:10.406780 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:11.407087 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:11.407281 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:11.432220 241386 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250301 17:12:12.407558 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:12.407677 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:13.407997 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:13.408258 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:14.408767 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:14.409067 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:15.409473 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:15.409648 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:16.410063 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:16.410507 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:17.410960 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:17.411070 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:18.411289 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:18.411399 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:19.411677 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:19.411801 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:20.412047 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:20.412155 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:21.412572 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:21.412967 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:22.413445 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:22.413587 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:23.414073 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:23.414469 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:24.414937 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:24.415154 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:25.415426 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:25.415517 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:26.415731 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:26.415839 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:27.416254 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:27.416640 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:28.417497 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:28.417932 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:29.418545 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:29.418877 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:30.419435 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:30.419857 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250301 17:12:31.420298 241377 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250301 17:12:31.420507 241377 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.

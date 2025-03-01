@@ -1,0 +1,173 @@
+Log file created at: 2025/02/28 13:33:03
+Running on machine: xyz-Workstation
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E20250228 13:33:03.344947 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:03.345417 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:04.345788 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:04.346000 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:05.346345 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:05.346479 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:05.352502 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:33:06.346771 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:06.346869 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:07.347100 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:07.347199 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:08.347481 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:08.347681 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:09.350445 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:09.350553 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:10.350808 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:10.350924 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:11.351171 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:11.351294 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:12.351506 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:12.351640 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:13.351884 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:13.352030 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:14.354794 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:14.354912 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:15.355154 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:15.355261 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:16.355485 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:16.355609 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:17.355862 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:17.355974 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:18.356244 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:18.356349 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:19.356592 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:19.356696 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:20.356959 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:20.357096 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:21.357363 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:21.357443 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:22.358176 3495818 function_factory.cpp:164] Get /api/registry/service/vp_global_service resp. code is 502
+E20250228 13:33:22.358428 3495818 function_factory.cpp:164] Get /api/registry/service/max_grpc_service resp. code is 502
+E20250228 13:33:23.358908 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:23.359210 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:24.359583 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:24.359669 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:25.359880 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:25.359964 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:26.360175 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:26.360257 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:27.360692 3495818 function_factory.cpp:164] Get /api/registry/service/vp_global_service resp. code is 502
+E20250228 13:33:27.360917 3495818 function_factory.cpp:164] Get /api/registry/service/max_grpc_service resp. code is 502
+E20250228 13:33:28.361192 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:28.361279 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:29.361701 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:29.362046 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:30.362483 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:30.362617 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:31.363083 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:31.363476 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:32.364076 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:32.364312 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:33.364621 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:33.364703 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:34.365172 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:34.365494 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:35.365868 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:35.365988 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:36.366320 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:36.366701 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:37.353360 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:33:37.367522 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:37.367882 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:38.368468 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:38.368844 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:39.369251 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:39.369385 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:40.369854 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:40.370174 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:41.370843 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:41.371171 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:42.371771 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:42.372169 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:43.372598 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:43.372706 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:44.373334 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:44.373778 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:45.374425 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:45.374770 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:46.375234 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:46.375417 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:47.375881 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:47.376268 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:48.376896 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:48.377242 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:49.377838 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:49.378199 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:50.378757 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:50.378996 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:51.379290 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:51.379377 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:52.379582 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:52.379673 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:53.380098 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:53.380447 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:54.380918 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:54.381165 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:55.381500 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:55.381616 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:56.381848 3495818 function_factory.cpp:160] Get /api/registry/service/vp_global_service resp. is nullptr.
+E20250228 13:33:56.381938 3495818 function_factory.cpp:160] Get /api/registry/service/max_grpc_service resp. is nullptr.
+E20250228 13:33:57.382320 3495818 function_factory.cpp:164] Get /api/registry/service/vp_global_service resp. code is 502
+E20250228 13:33:57.382536 3495818 function_factory.cpp:164] Get /api/registry/service/max_grpc_service resp. code is 502
+E20250228 13:33:58.382915 3495818 function_factory.cpp:164] Get /api/registry/service/vp_global_service resp. code is 502
+E20250228 13:33:58.383113 3495818 function_factory.cpp:164] Get /api/registry/service/max_grpc_service resp. code is 502
+E20250228 13:33:59.383401 3495818 function_factory.cpp:164] Get /api/registry/service/vp_global_service resp. code is 502
+E20250228 13:33:59.383636 3495818 function_factory.cpp:164] Get /api/registry/service/max_grpc_service resp. code is 502
+E20250228 13:34:00.384081 3495818 function_factory.cpp:164] Get /api/registry/service/vp_global_service resp. code is 502
+E20250228 13:34:00.384279 3495818 function_factory.cpp:164] Get /api/registry/service/max_grpc_service resp. code is 502
+E20250228 13:34:00.602564 3495738 station_status_label.cpp:53] 0:  0
+E20250228 13:34:01.494243 3495825 function_factory.cpp:164] Get /api/rocky/hmi/order/current resp. code is 404
+E20250228 13:34:01.497035 3498349 function_factory.cpp:164] Get /api/rocky/hmi/get_agv_info resp. code is 404
+E20250228 13:34:01.501071 3495738 station_status_label.cpp:53] 1:  0
+E20250228 13:34:06.494679 3495825 function_factory.cpp:164] Get /api/rocky/hmi/order/current resp. code is 502
+E20250228 13:34:06.509521 3495826 function_factory.cpp:164] Get /api/hmi/cycle_data resp. code is 502
+E20250228 13:34:08.415649 3495738 station_status_label.cpp:53] 0:  0
+E20250228 13:34:08.416237 3495738 function_factory.cpp:164] Get /api/rocky/hmi/container resp. code is 502
+E20250228 13:34:08.416282 3495738 container_info_widget.cpp:120] Query pallet list failed: {"code":100009,"date_time":"2025-02-28 13:34:08","reason":"Connection with HMI service failed.","source":"HTTP","tip":"Please check whether the PC is powered on and started.","title":"Connection with HMI Service Failed."}
+E20250228 13:34:09.355106 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:34:41.356518 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:35:13.358911 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:35:45.360909 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:36:17.362306 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:36:49.364578 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:37:21.367154 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:37:53.368525 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:38:25.369845 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:38:57.372032 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:39:29.373092 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:40:01.374274 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:40:33.376806 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:41:05.379612 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:41:37.382340 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:42:09.385047 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:42:41.387897 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:43:13.390489 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:43:45.393199 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:44:17.395345 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:44:49.397774 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:45:21.400209 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:45:53.402837 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:46:25.405838 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:46:57.408471 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:47:29.410701 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:48:01.413190 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:48:33.415709 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:49:05.417593 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:49:37.419638 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:50:09.421452 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:50:41.423074 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:51:13.424634 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:51:45.426601 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:52:17.428542 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:52:49.430913 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:53:21.433109 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:53:53.435408 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:54:25.437084 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:54:57.438608 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:55:29.440474 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+E20250228 13:56:01.440946 3495827 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.

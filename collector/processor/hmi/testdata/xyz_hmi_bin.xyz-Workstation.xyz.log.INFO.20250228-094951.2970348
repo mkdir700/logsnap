@@ -1,0 +1,62 @@
+Log file created at: 2025/02/28 09:49:51
+Running on machine: xyz-Workstation
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20250228 09:49:51.782200 2970348 main.cpp:148] Save log under /home/xyz/xyz_log/xyz_hmi
+I20250228 09:49:51.797732 2970348 translation.hpp:47] translation for xyz_qkit is loaded successfully
+I20250228 09:49:51.939395 2970348 project_manager.cpp:33] Template type is: Rone
+W20250228 09:49:51.939723 2970348 resource_manager.cpp:51] QIcon deserialization failed from QDataStream for {a99085d8-8513-49c1-a9cf-476b08ecad06}, data stream status is 2
+I20250228 09:49:51.942081 2970348 hc_net_video_manager.cpp:58] HC Net Video is turned on.
+I20250228 09:49:52.181497 2970348 camera_video_widget.cpp:128] current_index: 0
+I20250228 09:49:52.186762 2970348 hmi_global_service.cpp:133] Hmi Global Service listening on: 0.0.0.0:12349
+I20250228 09:49:52.222743 2970348 communication_manager.cpp:261] Start building communication with MAX.
+I20250228 09:49:52.222848 2970348 runtime_data_manager.cpp:228] Start listening vp flow status.
+I20250228 09:49:52.222971 2970421 runtime_data_item.cpp:81] Start updating runtime data item station_status
+I20250228 09:49:52.223028 2970422 runtime_data_item.cpp:81] Start updating runtime data item robot_status
+I20250228 09:49:52.223055 2970423 runtime_data_item.cpp:81] Start updating runtime data item robot_speed
+I20250228 09:49:52.223093 2970424 runtime_data_item.cpp:81] Start updating runtime data item chassis_status
+I20250228 09:49:52.223138 2970425 runtime_data_item.cpp:81] Start updating runtime data item agv_power
+I20250228 09:49:52.223173 2970426 runtime_data_item.cpp:81] Start updating runtime data item task_info
+I20250228 09:49:52.223205 2970427 runtime_data_item.cpp:81] Start updating runtime data item cycle_data
+I20250228 09:49:52.227244 2970419 function_factory.cpp:169] Get /api/registry/service/vp_global_service resp. body: {"code":0,"msg":"success","data":{"host":"127.0.0.1","port":12346}}
+I20250228 09:49:52.232000 2970419 function_factory.cpp:169] Get /api/registry/service/max_grpc_service resp. body: {"code":0,"msg":"success","data":{"host":"127.0.0.1","port":12348}}
+I20250228 09:49:52.246017 2970419 communication_manager.cpp:276] MAX connected.
+I20250228 09:49:52.246130 2970419 driver_grpc_client.cc:49] target_str: 127.0.0.1:25678
+I20250228 09:49:52.246208 2970419 control_grpc_client.cc:43] target_str: 127.0.0.1:25678
+I20250228 09:49:52.258069 2970348 main_window.cpp:567] HMI is test version, skip version check
+I20250228 09:49:52.280700 2970348 function_factory.cpp:169] Post /api/hmi/config resp. body: {"code":0,"msg":"success","data":{}}
+W20250228 09:49:52.280740 2970348 runtime_data_manager.cpp:140] Runtime item station_status update is being started.
+I20250228 09:49:52.280807 2970348 main_window.cpp:128] Max connected trigger station status update
+W20250228 09:49:52.280953 2970348 function_factory_utils.cpp:686] Failed to parse station status: 
+W20250228 09:49:52.281102 2970348 runtime_data_manager.cpp:140] Runtime item robot_speed update is being started.
+W20250228 09:49:52.281149 2970348 runtime_data_manager.cpp:140] Runtime item agv_power update is being started.
+I20250228 09:49:52.323155 2970565 runtime_data_item.cpp:81] Start updating runtime data item station_status
+I20250228 09:49:52.323242 2970566 runtime_data_item.cpp:81] Start updating runtime data item robot_speed
+I20250228 09:49:52.323274 2970567 runtime_data_item.cpp:81] Start updating runtime data item agv_power
+W20250228 09:49:52.323283 2970426 function_factory_utils.cpp:686] Failed to parse station status: 
+I20250228 09:49:52.329286 2970565 function_factory.cpp:169] Get /api/hmi/peer_connection resp. body: {"code":0,"msg":"success","data":{"is_stand_alone":false,"station_connection":false}}
+I20250228 09:49:52.334401 2970427 function_factory.cpp:169] Get /api/hmi/cycle_data resp. body: {"code":0,"msg":"success","data":{"order_id":null}}
+I20250228 09:49:52.337607 2970567 function_factory.cpp:169] Get /api/rocky/hmi/get_agv_info resp. body: {"code":-1,"msg":"Internal Server Error","data":{"error_code":10000,"error_message":"子应用加载失败"}}
+W20250228 09:49:52.337642 2970567 runtime_data_item.cpp:153] Failed to update runtime data item agv_power: 子应用加载失败
+I20250228 09:49:52.341941 2970426 function_factory.cpp:169] Get /api/rocky/hmi/order/current resp. body: {"code":0,"msg":"success","data":{"result":true}}
+W20250228 09:49:52.342089 2970426 runtime_data_item.cpp:142] Updating runtime data item task_info failed: Key does not exist. [json.exception.out_of_range.403] key 'customized_data' not found
+I20250228 09:49:52.355710 2970348 function_factory_utils.cpp:693] Is stand alone: 0
+I20250228 09:49:52.355751 2970348 function_factory_utils.cpp:697] Is connected: 0
+E20250228 09:49:52.355764 2970348 station_status_label.cpp:53] 0:  0
+I20250228 09:49:52.356251 2970348 function_factory_utils.cpp:693] Is stand alone: 0
+I20250228 09:49:52.356271 2970348 function_factory_utils.cpp:697] Is connected: 0
+I20250228 09:49:52.362047 2970348 function_factory.cpp:169] Get /api/rocky/hmi/container resp. body: {"code":0,"msg":"success","data":{"total":0,"rows":[]}}
+I20250228 09:49:52.362378 2970348 main_window.cpp:115] Task widget status changed!
+I20250228 09:49:53.324235 2970424 control_grpc_client.cc:43] target_str: 127.0.0.1:25678
+E20250228 09:49:54.249321 2970428 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.
+I20250228 09:49:54.325176 2970424 control_grpc_client.cc:43] target_str: 127.0.0.1:25678
+I20250228 09:49:55.326033 2970424 control_grpc_client.cc:43] target_str: 127.0.0.1:25678
+I20250228 09:49:56.326917 2970424 control_grpc_client.cc:43] target_str: 127.0.0.1:25678
+I20250228 09:49:57.327513 2970424 control_grpc_client.cc:43] target_str: 127.0.0.1:25678
+I20250228 09:49:57.342226 2970426 function_factory_utils.cpp:693] Is stand alone: 0
+I20250228 09:49:57.342293 2970426 function_factory_utils.cpp:697] Is connected: 0
+I20250228 09:49:57.344113 2970427 function_factory.cpp:169] Get /api/hmi/cycle_data resp. body: {"code":0,"msg":"success","data":{"order_id":null}}
+I20250228 09:49:57.353101 2970426 function_factory.cpp:169] Get /api/rocky/hmi/order/current resp. body: {"code":0,"msg":"success","data":{"result":true}}
+W20250228 09:49:57.353201 2970426 runtime_data_item.cpp:142] Updating runtime data item task_info failed: Key does not exist. [json.exception.out_of_range.403] key 'customized_data' not found
+I20250228 09:49:58.328580 2970424 control_grpc_client.cc:43] target_str: 127.0.0.1:25678
+I20250228 09:50:02.747298 2970348 communication_manager.cpp:324] Global service stopped.

@@ -1,0 +1,73 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: '版本号 (例如: 0.1.0)'
+        required: true
+        default: '0.0.0-test'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.21'
+          cache: true
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq curl
+
+      - name: Extract version from tag or input
+        id: get_version
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            # 使用手动输入的版本号
+            VERSION="${{ github.event.inputs.version }}"
+          else
+            # 从标签中提取版本号
+            VERSION=${GITHUB_REF#refs/tags/v}
+          fi
+          
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Creating version.json with version $VERSION"
+          echo "{\"version\":\"$VERSION\"}" > version.json
+          cat version.json
+
+      - name: Run release script
+        env:
+          CLOUDREVE_URL: ${{ vars.CLOUDREVE_URL }}
+          CLOUDREVE_POLICY_ID: ${{ vars.CLOUDREVE_POLICY_ID }}
+          REMOTE_CONFIG_FILE_ID: ${{ vars.REMOTE_CONFIG_FILE_ID }}
+          CLOUDREVE_USERNAME: ${{ secrets.CLOUDREVE_USERNAME }}
+          CLOUDREVE_PASSWORD: ${{ secrets.CLOUDREVE_PASSWORD }}
+          DOWNLOAD_CONFIG_URL: ${{ secrets.DOWNLOAD_CONFIG_URL }}
+          UPLOAD_CONFIG_URL: ${{ secrets.UPLOAD_CONFIG_URL }}
+        run: |
+          chmod +x scripts/release.sh
+          ./scripts/release.sh
+
+      # 当手动触发工作流时，创建临时标签
+      - name: Create temporary tag for manual workflow
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          TAG_NAME="v${{ github.event.inputs.version }}"
+          echo "Creating temporary tag: $TAG_NAME"
+          git tag -a $TAG_NAME -m "Release $TAG_NAME"
+          echo "TAG_NAME=$TAG_NAME" >> $GITHUB_ENV

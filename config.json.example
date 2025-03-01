@@ -1,0 +1,30 @@
+{
+  "version": "0.0.1",
+  "upload_config": {
+    "providers": [
+      {
+        "provider": "s3",
+        "endpoint": "https://s3.example.com",
+        "bucket": "logs-bucket",
+        "region": "us-east-1",
+        "folder_path": "xyz-logsnap/snapshots"
+      },
+      {
+        "provider": "webdav",
+        "endpoint": "",
+        "username": "",
+        "password": "",
+        "folder_path": "snapshots"
+      },
+      {
+        "provider": "cloudreve",
+        "endpoint": "",
+        "username": "",
+        "password": "",
+        "folder_path": "snapshots"
+      }
+    ],
+    "default_provider": "cloudreve"
+  },
+
+} 

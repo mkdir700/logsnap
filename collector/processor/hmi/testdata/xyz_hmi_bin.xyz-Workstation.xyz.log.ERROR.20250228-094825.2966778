@@ -1,0 +1,6 @@
+Log file created at: 2025/02/28 09:48:25
+Running on machine: xyz-Workstation
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E20250228 09:48:25.654057 2966778 station_status_label.cpp:53] 0:  0
+E20250228 09:48:27.566794 2966916 hc_net_video_manager.cpp:189] [Hik Camera Error] NET_DVR_Login_V30 failed, error code: 7. Please refer to the manual.

@@ -1,0 +1,534 @@
+Log file created at: 2025/03/04 11:22:33
+Running on machine: xyz-Workstation
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20250304 11:22:33.780215 1668381 main.cpp:261] save log under /home/xyz/xyz_log/xyz_studio_max
+I20250304 11:22:33.782214 1668381 global_data.cc:200] host ip: 172.11.1.175
+W20250304 11:22:33.782339 1668381 environment.h:32] Environment variable [CYBER_PATH] not set, fallback to /opt/xyz
+W20250304 11:22:33.782497 1668381 file.cc:96] Failed to open file /opt/xyz/conf/cyber.pb.conf in text mode.
+W20250304 11:22:33.782739 1668381 file.cc:124] Failed to open file /opt/xyz/conf/cyber.pb.conf in binary mode.
+W20250304 11:22:33.782886 1668381 global_data.cc:206] read cyber conf failed, we will use default conf!
+W20250304 11:22:33.783141 1668381 environment.h:32] Environment variable [CYBER_PATH] not set, fallback to /opt/xyz
+W20250304 11:22:33.783229 1668381 scheduler_factory.cc:63] Scheduler conf named /opt/xyz/conf/xyz_studio_max_bin_1668381.conf not found, use default.
+W20250304 11:22:33.783350 1668381 environment.h:32] Environment variable [CYBER_PATH] not set, fallback to /opt/xyz
+I20250304 11:22:33.783993 1668442 processor.cc:50] processor_tid: 1668442
+I20250304 11:22:33.784320 1668381 init.cc:94] Register exit handle succ.
+I20250304 11:22:33.784286 1668443 processor.cc:50] processor_tid: 1668443
+I20250304 11:22:33.842108 1668381 translate.h:19] translation for xyz_world is loaded successfully
+I20250304 11:22:33.842242 1668381 translator.cc:24] translation for pick place world is loaded successfully
+I20250304 11:22:33.842900 1668381 translate.h:22] translation for xyz_motion_solver is loaded successfully
+I20250304 11:22:33.842950 1668381 translation.h:45] translation for xyz_motion_ux is loaded successfully
+I20250304 11:22:33.842994 1668381 translation.hpp:49] translation for xyz_property_inspector is loaded successfully
+I20250304 11:22:33.843230 1668381 translation.hpp:47] translation for xyz_qkit is loaded successfully
+I20250304 11:22:33.844180 1668381 translation.hpp:33] translation for xyz_viz_qt is loaded successfully
+I20250304 11:22:33.845578 1668381 main.cpp:405] enable cef view. init web config
+I20250304 11:22:33.845795 1668381 main.cpp:478] path: /home/xyz/xyz-studio-max/1.10.1-pre.14/bin/CefViewWing
+I20250304 11:22:33.845827 1668381 main.cpp:480] path exists
+I20250304 11:22:33.845880 1668381 main.cpp:515] CefViewWing: /home/xyz/xyz-studio-max/1.10.1-pre.14/bin/CefViewWing
+I20250304 11:22:33.845906 1668381 main.cpp:518] browser resource: /home/xyz/xyz-studio-max/1.10.1-pre.14/bin/resources
+I20250304 11:22:33.845916 1668381 main.cpp:522] browser locales: /home/xyz/xyz-studio-max/1.10.1-pre.14/bin/resources/locales
+I20250304 11:22:34.164006 1668381 SimServer.cpp:118] Simulation sensor server listening on localhost:50051
+E20250304 11:22:34.286062 1668381 node.cc:878] Node not found: "" (relative to "/root ")
+I20250304 11:22:34.376940 1668381 ConfigFileFinder.cpp:32] try to find /home/xyz/xyz-studio-max/1.10.1-pre.14/bin/../share/xyz_vision_lib/property_settings.yml
+I20250304 11:22:34.377031 1668381 ConfigFileFinder.cpp:34] using property file: /home/xyz/xyz-studio-max/1.10.1-pre.14/bin/../share/xyz_vision_lib/property_settings.yml
+I20250304 11:22:34.431595 1668381 ConfigFileFinder.cpp:69] loading plugin property file: /home/xyz/xyz-studio-max/1.10.1-pre.14/share/xyz_vision_lib/plugins/StereoCamera/property_settings.yml
+I20250304 11:22:34.453387 1668381 ConfigFileFinder.cpp:32] try to find /home/xyz/xyz-studio-max/1.10.1-pre.14/bin/../share/xyz_vision_lib/property_settings_zh.yml
+I20250304 11:22:34.453454 1668381 ConfigFileFinder.cpp:34] using property file: /home/xyz/xyz-studio-max/1.10.1-pre.14/bin/../share/xyz_vision_lib/property_settings_zh.yml
+I20250304 11:22:34.481441 1668381 ConfigFileFinder.cpp:69] loading plugin property file: /home/xyz/xyz-studio-max/1.10.1-pre.14/share/xyz_vision_lib/plugins/StereoCamera/property_settings_zh.yml
+I20250304 11:22:34.527308 1668381 class_loader.cc:33] Begin LoadLibrary: /home/xyz/xyz-studio-max/1.10.1-pre.14/bin/../lib/libxvl_model.so
+W20250304 11:22:34.629380 1668381 ParamTreeModel.hpp:274] key not in params, key sequence: model
+I20250304 11:22:34.776737 1668381 class_loader.cc:33] Begin LoadLibrary: /home/xyz/xyz-studio-max/1.10.1-pre.14/bin/../lib/libxvl_StereoCamera_model.so
+I20250304 11:22:34.787686 1668381 class_loader.cc:33] Begin LoadLibrary: /home/xyz/xyz-studio-max/1.10.1-pre.14/bin/../lib/libxvl_converter.so
+I20250304 11:22:34.794142 1668381 class_loader.cc:33] Begin LoadLibrary: /home/xyz/xyz-studio-max/1.10.1-pre.14/bin/../lib/libxvl_viewer.so
+I20250304 11:22:34.812964 1668381 DataModelRegistry.cpp:137] loading Python scripts
+I20250304 11:22:34.813014 1668381 DataModelRegistry.cpp:148] loading Python script: LogString
+I20250304 11:22:34.842419 1668381 DataModelRegistry.cpp:148] loading Python script: LogPrimitive3D
+I20250304 11:22:34.858582 1668381 DataModelRegistry.cpp:148] loading Python script: LogPrimitive2D
+I20250304 11:22:34.877775 1668381 DataModelRegistry.cpp:148] loading Python script: Primitive3DtoString
+I20250304 11:22:34.895905 1668381 DataModelRegistry.cpp:148] loading Python script: Primitive2DtoString
+I20250304 11:22:34.914170 1668381 DataModelRegistry.cpp:148] loading Python script: StringtoPrimitive3D
+I20250304 11:22:34.932143 1668381 DataModelRegistry.cpp:148] loading Python script: Compare2Primitive3D
+I20250304 11:22:34.950639 1668381 DataModelRegistry.cpp:148] loading Python script: Compare2Primitive2D
+I20250304 11:22:34.969499 1668381 DataModelRegistry.cpp:148] loading Python script: CheckPickablePrimtives2D
+I20250304 11:22:34.988068 1668381 DataModelRegistry.cpp:148] loading Python script: ShrinkBoxDimension
+I20250304 11:22:35.006417 1668381 DataModelRegistry.cpp:148] loading Python script: RecordReplayer
+I20250304 11:22:35.024520 1668381 DataModelRegistry.cpp:148] loading Python script: MappingBoxDimension
+I20250304 11:22:35.043640 1668381 DataModelRegistry.cpp:148] loading Python script: MakeOffset
+I20250304 11:22:35.062139 1668381 DataModelRegistry.cpp:148] loading Python script: ConstructPrimitive3D
+I20250304 11:22:35.080823 1668381 DataModelRegistry.cpp:148] loading Python script: MoveDebugImage
+I20250304 11:22:35.099016 1668381 DataModelRegistry.cpp:148] loading Python script: RigidDistanceCheck
+E20250304 11:22:35.147887 1668381 NodeEditorVP.cpp:122] translation for nodeditorvp load success!
+W20250304 11:22:35.191056 1668381 NodeEditorVP.cpp:1672] start VP grpc global service
+I20250304 11:22:35.192070 1668381 VPGlobalGrpcService.cpp:286] VPGlobalServer listening on: 0.0.0.0:12346
+W20250304 11:22:35.206080 1668381 DataModelRegistry.cpp:111] Env variable VP_MODEL_PATH not found or empty. Put path to xvp_models.dll in VP_MODEL_PATH.
+W20250304 11:22:35.206115 1668381 DataModelRegistry.cpp:114] Use default path
+I20250304 11:22:35.206754 1668381 DataModelRegistry.cpp:54] find loader's lib path/home/xyz/xyz-studio-max/1.10.1-pre.14/bin/../lib/libxvp_models.so
+I20250304 11:22:35.206782 1668381 DataModelRegistry.cpp:122] Load lib file count: 1
+E20250304 11:22:35.209208 1668381 DataModelRegistry.cpp:131] translation for vp load success!
+I20250304 11:22:35.209239 1668381 class_loader.cc:33] Begin LoadLibrary: /home/xyz/xyz-studio-max/1.10.1-pre.14/bin/../lib/libxvp_models.so
+W20250304 11:22:36.027354 1668381 DataModelRegistry.cpp:160] VP Initializing: MotionPayloadVizInitializer
+I20250304 11:22:36.115085 1668381 hmi_web_page.cpp:202] [MAX-HMI] Web url is: file:////home/xyz/xyz-studio-max/1.10.1-pre.14/lib/python/dist-packages/xyz_max_hmi_front/statics/index.html#
+I20250304 11:22:36.292049 1668381 process_name_mapping.cpp:36] ProcessNameMapping file exists
+I20250304 11:22:36.333387 1668381 ErrorJson.cpp:48] ErrorJson file exists
+I20250304 11:22:36.337328 1668381 MAXErrorLogGrpcService.cpp:38] Max Error Log Init 
+I20250304 11:22:36.337359 1668381 utils.cpp:61] Port 23456 is open.
+I20250304 11:22:36.337570 1668381 MAXErrorLogGrpcService.cpp:64] Max Error Log Grpc Server listening on: 0.0.0.0:23456
+I20250304 11:22:36.369513 1668381 hmi_logger.cpp:40] HMI user operation log directory is: /home/xyz/xyz_log/xyz_max_hmi/user
+I20250304 11:22:36.369539 1668381 hmi_logger.cpp:41] HMI log datetime is: 20250304-112236
+I20250304 11:22:36.369817 1668381 main_window.cpp:1025] [init] project actived, actived=false
+E20250304 11:22:36.382342 1668381 node.cc:878] Node not found: "" (relative to "/root ")
+E20250304 11:22:36.384816 1668381 node.cc:878] Node not found: "" (relative to "/root ")
+W20250304 11:22:36.484791 1668381 main_window.cpp:1858] hmi page is not initialized
+I20250304 11:22:36.500190 1668381 project_service.cpp:50] [proj-srv] create project service node success
+I20250304 11:22:36.503520 1668381 project_service.cpp:82] [proj-srv] start project service: project_server
+I20250304 11:22:36.756752 1668381 time_utils.cpp:132] get ntp time
+I20250304 11:22:37.077445 1668381 time_utils.cpp:234] get ntp time finished
+I20250304 11:22:37.077963 1668381 license_validator.cpp:86] valid dongle failed. try to validate trial
+I20250304 11:22:37.091900 1668381 license_validator.cpp:89] validate trial finished
+W20250304 11:22:37.092236 1668381 license_validator.cpp:754] encode time method:1
+I20250304 11:22:38.144461 1668381 studio_max_project.cpp:1068] [init] load project_path=/home/xyz/Documents/XYZRobotics/std_truck_loading/project.max
+I20250304 11:22:38.144666 1668381 studio_max_project.cpp:929] [proj] reset project, current project_name=
+I20250304 11:22:38.144815 1668381 robots_state_machine.cpp:32] [robot-sm] reset robot state machine
+I20250304 11:22:38.160027 1668381 studio_max_project.cpp:105] [proj] clear world manager
+I20250304 11:22:38.160208 1668381 main_window.cpp:1025] [init] project actived, actived=false
+W20250304 11:22:38.230278 1668381 convex_shape.cc:80] The mesh shape is not convex.
+E20250304 11:22:38.341192 1668381 mesh_shape.cc:116] Empty MeshShape is returned because we failed to load mesh from file, reason: File resources/tools/model/吸具（双分区大吸盘900）/推拉式夹具-百事900-移动部件1.STL does not exist
+W20250304 11:22:38.367138 1668381 convex_shape.cc:80] The mesh shape is not convex.
+W20250304 11:22:38.367713 1668381 convex_shape.cc:80] The mesh shape is not convex.
+E20250304 11:22:38.415910 1668381 mesh_shape.cc:116] Empty MeshShape is returned because we failed to load mesh from file, reason: File resources/tools/model/吸具（双分区大吸盘900）/推拉式夹具-百事900-移动部件2.STL does not exist
+I20250304 11:22:38.416441 1668381 studio_max_project.cpp:1113] world resource loaded
+I20250304 11:22:38.417939 1668381 studio_max_project.cpp:1048] there is no backup folder in /home/xyz/xyz_log/xyz_vp_log
+E20250304 11:22:38.457415 1668381 node.cc:805] Invalid index: 0 because root has 0 Children.
+E20250304 11:22:38.457463 1668381 studio_max_project.cpp:1178] There is NO any mvf node in MVF tree.
+I20250304 11:22:38.461828 1668381 project_model.cpp:137] [proj] load vision service_id=0, flow=visualize_cloud.vision
+I20250304 11:22:38.461963 1668381 vision_workspace.cpp:157] [notice] no flow view for this vision workspace
+I20250304 11:22:38.462783 1668381 FlowView.cpp:362] auto scale
+I20250304 11:22:38.466066 1668381 VisionService.cpp:195] stop service: vision_-1
+E20250304 11:22:38.473371 1668644 node.cc:708] Cannot get path of node as it is not in a scene tree.
+E20250304 11:22:38.473353 1668644 node.cc:878] Node not found: "吸具（标准三分区530）" (relative to " ")
+I20250304 11:22:38.479472 1668381 VisionService.cpp:152] Vision Grpc Server listening on: 127.0.0.1:20357
+I20250304 11:22:38.479502 1668381 VisionService.cpp:154] start service: vision_0
+I20250304 11:22:38.480345 1668381 FlowScene.cpp:1500] apply recipe Default successfully.
+E20250304 11:22:38.487236 1668644 node.cc:708] Cannot get path of node as it is not in a scene tree.
+E20250304 11:22:38.487214 1668644 node.cc:878] Node not found: "吸具（单控672）" (relative to " ")
+W20250304 11:22:38.487602 1668381 VisionService.hpp:77] please stop service before set workspace id
+E20250304 11:22:38.519423 1668644 node.cc:708] Cannot get path of node as it is not in a scene tree.
+E20250304 11:22:38.519403 1668644 node.cc:878] Node not found: "吸具（单控672）" (relative to " ")
+E20250304 11:22:38.547183 1668644 node.cc:708] Cannot get path of node as it is not in a scene tree.
+E20250304 11:22:38.547163 1668644 node.cc:878] Node not found: "吸具（标准三分区530）" (relative to " ")
+E20250304 11:22:38.556428 1668644 node.cc:708] Cannot get path of node as it is not in a scene tree.
+E20250304 11:22:38.556413 1668644 node.cc:878] Node not found: "" (relative to " ")
+I20250304 11:22:38.556466 1668644 loading_palletize_planning_node.cc:35] pick reg node filename: 
+I20250304 11:22:38.556537 1668644 basic_mixed_palletize_node.cc:162] Begin SetTaskExcelPath
+E20250304 11:22:38.556576 1668644 basic_mixed_palletize_node.cc:180] invalid task excel
+W20250304 11:22:38.559438 1668644 serialization.cc:196] Cannot serialize object [const Node*] property [dh_params]
+I20250304 11:22:38.607160 1668381 scheduler.cc:57] create croutine: max_vision_node0_vision_0/ui_image
+I20250304 11:22:38.607494 1668381 scheduler.cc:57] create croutine: max_vision_node0_vision_0/ui_cloud
+I20250304 11:22:38.607774 1668381 scheduler.cc:57] create croutine: max_vision_node0_vision_0/ui_primitives3d
+I20250304 11:22:38.653812 1668381 project_model.cpp:137] [proj] load vision service_id=1, flow=build_container_obstacles.vision
+I20250304 11:22:38.653929 1668381 vision_workspace.cpp:157] [notice] no flow view for this vision workspace
+I20250304 11:22:38.654614 1668381 FlowView.cpp:362] auto scale
+I20250304 11:22:38.656512 1668381 VisionService.cpp:195] stop service: vision_-1
+I20250304 11:22:38.683332 1668381 VisionService.cpp:152] Vision Grpc Server listening on: 127.0.0.1:20358
+I20250304 11:22:38.683367 1668381 VisionService.cpp:154] start service: vision_1
+I20250304 11:22:38.685449 1668381 FlowScene.cpp:1500] apply recipe Default successfully.
+W20250304 11:22:38.819453 1668381 camera_options_widget.cpp:1170] [cam] get all camera infos empty
+W20250304 11:22:38.821332 1668381 camera_options_widget.cpp:1170] [cam] get all camera infos empty
+W20250304 11:22:39.077209 1668381 VisionService.hpp:77] please stop service before set workspace id
+I20250304 11:22:39.171396 1668381 scheduler.cc:57] create croutine: max_vision_node1_vision_1/ui_image
+I20250304 11:22:39.171502 1668381 scheduler.cc:57] create croutine: max_vision_node1_vision_1/ui_cloud
+I20250304 11:22:39.171607 1668381 scheduler.cc:57] create croutine: max_vision_node1_vision_1/ui_primitives3d
+W20250304 11:22:39.216289 1668381 studio_max_project.cpp:1311] Load task
+W20250304 11:22:39.216338 1668381 project_model.cpp:161] file_name is /home/xyz/Documents/XYZRobotics/std_truck_loading/tasks/装车规划.task
+I20250304 11:22:39.216394 1668381 FunctionEngine.cpp:19] function engine cleared
+I20250304 11:22:39.226531 1668381 FlowView.cpp:618] auto scale
+E20250304 11:22:39.251963 1668381 FlowScene.cpp:1044] no entry
+I20250304 11:22:39.259119 1668381 FlowScene.cpp:395] Node Count = 204
+W20250304 11:22:39.260852 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.267263 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.270753 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.272976 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {111dbe75-f1d3-43d4-99fc-d1770288807c}
+I20250304 11:22:39.275640 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {131d816c-d934-49a8-bad0-b027f73a2d90}
+W20250304 11:22:39.280757 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.288455 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.290688 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.291496 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {27f53ddf-7f9f-41e7-b128-6003856ef686}
+W20250304 11:22:39.301717 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.319181 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.319231 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.321854 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.324028 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {43bebff5-b1d3-4162-a83b-aab6c612f4fc}
+W20250304 11:22:39.332494 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.333566 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {54730678-2876-4220-a7b3-cf8424445c64}
+W20250304 11:22:39.338202 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.345254 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.346413 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.347451 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.349478 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.350790 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {6c6572b1-29a2-40e3-b3d5-54b413b48222}
+W20250304 11:22:39.353958 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.354027 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.356127 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.357158 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.359313 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.363009 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {7fd469ad-c699-4389-b0d8-d71830097a48}
+W20250304 11:22:39.365335 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.366412 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.367522 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.370044 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {89a31c5d-828b-4a01-9c16-0f8208a29911}
+W20250304 11:22:39.370975 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.374356 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.375248 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.376971 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {997a9174-95f3-492c-ac9c-6dd42e72ac58}
+I20250304 11:22:39.377820 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {997d8f47-ce44-404d-89a2-7b6ef8dd5dd2}
+W20250304 11:22:39.380180 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.380223 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.381101 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {a01d7f04-3d03-4897-9627-2b085c15ce38}
+I20250304 11:22:39.388413 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {a96ea21e-8abd-4f26-affb-64e1c9d05ce2}
+W20250304 11:22:39.395303 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.397751 1668381 MotionUtilNodeModel.cpp:343] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.404227 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.410502 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.412717 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.416625 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.420599 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {e441ca12-f4f2-4e87-b172-ecba7b468a4a}
+W20250304 11:22:39.424980 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.425915 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.427734 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {eefba04c-8a6e-4d0e-b296-d92f663f51b4}
+W20250304 11:22:39.429035 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.429082 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.429128 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.431356 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {f367554a-e7d4-4195-8baf-a1d682bdf2af}
+W20250304 11:22:39.449546 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.451021 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {fd892094-5050-4af3-97d0-abb5b7dcb83a}
+I20250304 11:22:39.451224 1668381 FlowScene.cpp:417] Nodes Restored, All Success
+I20250304 11:22:39.451244 1668381 FlowScene.cpp:425] Connection Count = 492
+I20250304 11:22:39.461779 1668381 FlowScene.cpp:450] Connection Restored, All Success
+I20250304 11:22:39.461849 1668381 FlowScene.cpp:457] Milestone Node Group Count = 0
+I20250304 11:22:39.461864 1668381 FlowScene.cpp:482] Robot Global Speed Scale Config Count = 1
+I20250304 11:22:39.465263 1668381 FlowScene.cpp:763] Create grpc task service
+I20250304 11:22:39.466462 1668381 VPTaskGrpcService.cpp:93] grpc server binds to port: 12347
+I20250304 11:22:39.466619 1668381 VPTaskGrpcService.cpp:109] VPTaskGrpcServer listening on : 0.0.0.0:12347
+I20250304 11:22:39.597941 1668381 FlowView.cpp:618] auto scale
+W20250304 11:22:39.619974 1668381 project_model.cpp:161] file_name is /home/xyz/Documents/XYZRobotics/std_truck_loading/tasks/装车执行.task
+I20250304 11:22:39.620216 1668381 FunctionEngine.cpp:19] function engine cleared
+I20250304 11:22:39.654182 1668381 FlowView.cpp:618] auto scale
+E20250304 11:22:39.672637 1668381 FlowScene.cpp:1044] no entry
+I20250304 11:22:39.700789 1668381 FlowScene.cpp:395] Node Count = 617
+W20250304 11:22:39.705047 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.709228 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.718426 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.726999 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.732861 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {0ed0191c-6e3c-47a9-aac2-8c1e0d0cee61}
+W20250304 11:22:39.741993 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.742034 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.742871 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {14f960ef-132d-438c-9b90-6f93cfef1224}
+W20250304 11:22:39.758366 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.761874 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {1d136480-a9ce-4701-8edc-b7ca5c0fe97c}
+I20250304 11:22:39.764542 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {1e2a4f90-59b6-4ce0-9681-e8da65558200}
+I20250304 11:22:39.766326 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {1e9ace81-87b0-41c9-b32f-6fc1496b0d04}
+W20250304 11:22:39.774036 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.776598 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {227aba02-eff1-4597-baa1-8b217e716fb3}
+W20250304 11:22:39.778110 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.780535 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.797020 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {2bd7fe20-bada-4190-89d8-6eea7f6b52fc}
+W20250304 11:22:39.798113 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.800307 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {2ce65252-ebf9-41e7-b998-6166da295be4}
+W20250304 11:22:39.803733 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.804646 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {2ed85764-894d-42ff-9f30-842e35e99bf0}
+W20250304 11:22:39.811028 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.813791 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {33124567-bfaf-4d93-b7d1-2188ffc5c56b}
+W20250304 11:22:39.814021 1668381 MotionUtilNodeModel.cpp:343] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.818616 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {35e789dd-4f24-4951-ac35-8cdde090e864}
+I20250304 11:22:39.819373 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {371ec0b7-a08e-4d85-bb92-bf50f3ed2021}
+I20250304 11:22:39.822588 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {3926e335-08fd-4faa-a5de-b39f50e33340}
+W20250304 11:22:39.826277 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.827196 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.838303 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {3fdd5071-dad4-406f-8be1-462035d5491a}
+W20250304 11:22:39.840062 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.845050 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.851198 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {478a19c1-59a9-4450-90a3-aa868a9b0d41}
+I20250304 11:22:39.857578 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {49871484-4ef5-49d4-9ef2-b8a92548b825}
+I20250304 11:22:39.861044 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {4bb56737-e860-4b7f-a26c-a8353c81c1bf}
+W20250304 11:22:39.861919 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.872645 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {4e4e0e40-2d8a-45e6-a238-65d984b7794e}
+W20250304 11:22:39.877084 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.878067 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.878099 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.883682 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {51d32157-f2ca-418a-bc20-e67718f0e97f}
+W20250304 11:22:39.891678 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.901903 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {58e7244a-edb5-4e2a-b4d8-685779538d1f}
+W20250304 11:22:39.907279 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.915593 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {5cb8ac61-c3d0-4609-8e94-8fcb4a457500}
+W20250304 11:22:39.922538 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.924665 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {61f3d75d-22fe-4531-a6d0-8f319c462039}
+I20250304 11:22:39.936733 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {62868ca1-d9fa-4f61-bfc6-61935495e2cf}
+I20250304 11:22:39.945374 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {6831181a-d356-4368-9861-331822186a1f}
+W20250304 11:22:39.952220 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.963821 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.968573 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.971661 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.972949 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.974831 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {77f3a9d5-1379-4990-9d35-adbb0218f300}
+W20250304 11:22:39.981655 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.981734 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.982914 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {7c53d721-692e-44a5-8974-f87fe11e23aa}
+I20250304 11:22:39.985755 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {7dd47264-27e0-46a3-88db-9d50a8b8f7fa}
+W20250304 11:22:39.986740 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.987685 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:39.991688 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+I20250304 11:22:39.996238 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {822a9d29-87de-459a-9124-2b2bc0d3343f}
+W20250304 11:22:39.999188 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.006755 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.023900 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:40.027547 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {8f26caea-0868-414c-af54-55f05218e4b1}
+I20250304 11:22:40.036393 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {93f0060c-8a6a-4b58-8253-9adc50ebcf7b}
+W20250304 11:22:40.037504 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.037581 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.037608 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:40.040881 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {96bfef95-edb8-40f6-a659-ae31cedc3854}
+W20250304 11:22:40.041788 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:40.050392 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {9b50b4d0-e38d-45ee-a929-5bcd220bcaf0}
+I20250304 11:22:40.051415 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {9baa9e83-bc34-4f13-bd60-829d1cafd796}
+W20250304 11:22:40.052397 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:40.054199 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {9cdcba47-0980-4fa5-abfb-5d44e427192a}
+I20250304 11:22:40.057637 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {a1eea844-3803-44f0-9c65-26f55541f6b4}
+I20250304 11:22:40.062269 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {a484e44f-7602-41e8-8572-d1e7677b50ad}
+I20250304 11:22:40.064147 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {a4c03631-34c6-48fe-a640-5e7815e9d744}
+W20250304 11:22:40.081339 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.081396 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:40.083757 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {aaf1dbb7-a33b-43c0-98f9-36eba8989072}
+I20250304 11:22:40.089956 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {b243633f-30fd-4997-a843-6e8bbba2ec39}
+I20250304 11:22:40.091785 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {b358cef0-208f-4d11-bf2a-ea56dde6e8e8}
+I20250304 11:22:40.093906 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {b4d4eb95-206a-4723-97a0-4f6ff661401e}
+W20250304 11:22:40.094985 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.096298 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:40.104132 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {b94c544d-c022-44bc-9a9c-e86442a35834}
+W20250304 11:22:40.109570 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.109613 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.109670 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.113270 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.113351 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:40.116489 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {bfa782a7-b23a-45f5-8553-6d381ec50008}
+I20250304 11:22:40.118718 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {c0bb3c82-16fb-417f-a7e8-7cf597848096}
+I20250304 11:22:40.120669 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {c10312f5-1cf4-4809-a5d0-ed5441624f67}
+W20250304 11:22:40.121634 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.124372 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.124433 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.126374 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.129957 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.131440 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.134801 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.139328 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.139400 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.142395 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.142447 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.142493 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.142516 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.142539 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:40.149313 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {ce617cc0-61ca-428c-af02-312a0f462c14}
+I20250304 11:22:40.169492 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {d5235bfe-42f2-4cac-acb8-810ad93e433b}
+W20250304 11:22:40.170497 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+I20250304 11:22:40.177786 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {d948fe09-65cf-473b-88ca-2719968eee11}
+I20250304 11:22:40.178579 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {d97188e8-13bf-48e1-a72c-78b2ba09b2ac}
+W20250304 11:22:40.181869 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.181934 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.181967 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:40.184975 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {dc83894d-54d1-49cb-b332-3322de2edd89}
+I20250304 11:22:40.188844 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {dd54c139-a867-451b-b941-c0d4ccb83d86}
+W20250304 11:22:40.194448 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.195508 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:40.226989 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {f3ed675c-09cd-4258-abab-a4d43e0fcae4}
+W20250304 11:22:40.244315 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.247397 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+W20250304 11:22:40.250442 1668381 FunctionEventNodeModel.cpp:38] Update Signature By Brute Force Algorithm
+I20250304 11:22:40.253167 1668381 FlowScene.cpp:417] Nodes Restored, All Success
+I20250304 11:22:40.253196 1668381 FlowScene.cpp:425] Connection Count = 1019
+I20250304 11:22:40.269879 1668381 FlowScene.cpp:450] Connection Restored, All Success
+I20250304 11:22:40.269917 1668381 FlowScene.cpp:457] Milestone Node Group Count = 0
+I20250304 11:22:40.269925 1668381 FlowScene.cpp:482] Robot Global Speed Scale Config Count = 0
+I20250304 11:22:40.281849 1668381 FlowView.cpp:618] auto scale
+W20250304 11:22:40.282277 1668381 project_model.cpp:161] file_name is /home/xyz/Documents/XYZRobotics/std_truck_loading/tasks/机械臂回安全点.task
+I20250304 11:22:40.282316 1668381 FunctionEngine.cpp:19] function engine cleared
+I20250304 11:22:40.293215 1668381 FlowView.cpp:618] auto scale
+E20250304 11:22:40.307011 1668381 FlowScene.cpp:1044] no entry
+I20250304 11:22:40.314891 1668381 FlowScene.cpp:395] Node Count = 36
+W20250304 11:22:40.328951 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+I20250304 11:22:40.331883 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {308f7312-b59e-4524-82a1-02a9a3e103a0}
+I20250304 11:22:40.340013 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {a3152db1-cf5f-473d-8524-8d645ad24b91}
+I20250304 11:22:40.342404 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {b24fcd55-7a53-4a54-b4eb-6c5a8aef5759}
+I20250304 11:22:40.343240 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {b28f97fd-7a9d-4522-9523-deaefea080c7}
+I20250304 11:22:40.344136 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {ca7e8302-48c9-4101-9bf1-8eb80d1575de}
+W20250304 11:22:40.346328 1668381 PythonNodeModel.cpp:541] Update Signature By Brute Force Algorithm
+I20250304 11:22:40.348838 1668381 FlowScene.cpp:417] Nodes Restored, All Success
+I20250304 11:22:40.348874 1668381 FlowScene.cpp:425] Connection Count = 48
+I20250304 11:22:40.349795 1668381 FlowScene.cpp:450] Connection Restored, All Success
+I20250304 11:22:40.349817 1668381 FlowScene.cpp:457] Milestone Node Group Count = 4
+I20250304 11:22:40.349830 1668381 FlowScene.cpp:482] Robot Global Speed Scale Config Count = 2
+I20250304 11:22:40.351909 1668381 FlowView.cpp:618] auto scale
+W20250304 11:22:40.352008 1668381 project_model.cpp:161] file_name is /home/xyz/Documents/XYZRobotics/std_truck_loading/tasks/更新环境.task
+I20250304 11:22:40.352056 1668381 FunctionEngine.cpp:19] function engine cleared
+I20250304 11:22:40.365494 1668381 FlowView.cpp:618] auto scale
+E20250304 11:22:40.379289 1668381 FlowScene.cpp:1044] no entry
+I20250304 11:22:40.430831 1668381 FlowScene.cpp:395] Node Count = 11
+I20250304 11:22:40.433949 1668381 FlowScene.cpp:382] restoreSerializedNode() backgroup id = {81a62622-11fb-4943-be20-7bcb4107d756}
+I20250304 11:22:40.434478 1668381 FlowScene.cpp:417] Nodes Restored, All Success
+I20250304 11:22:40.434494 1668381 FlowScene.cpp:425] Connection Count = 15
+I20250304 11:22:40.434804 1668381 FlowScene.cpp:450] Connection Restored, All Success
+I20250304 11:22:40.434820 1668381 FlowScene.cpp:457] Milestone Node Group Count = 4
+I20250304 11:22:40.434830 1668381 FlowScene.cpp:482] Robot Global Speed Scale Config Count = 0
+I20250304 11:22:40.435755 1668381 FlowView.cpp:618] auto scale
+I20250304 11:22:40.435824 1668381 main_window.cpp:1025] [init] project actived, actived=true
+I20250304 11:22:40.436513 1668381 MaxGrpcService.cpp:846] Max Grpc Server listening on: 0.0.0.0:12348
+I20250304 11:22:41.075011 1668381 FlowView.cpp:618] auto scale
+W20250304 11:22:41.078899 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/move_to_home_choice_decider.py
+W20250304 11:22:41.080852 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/get_gripper_pos.py
+I20250304 11:22:41.081622 1668381 FlowView.cpp:618] auto scale
+W20250304 11:22:41.090498 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/move_gripper.py
+W20250304 11:22:41.092222 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/check_if_relocation_done.py
+W20250304 11:22:41.096803 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/create_odom_anchor.py
+W20250304 11:22:41.102097 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/relocation_based_on_odom.py
+W20250304 11:22:41.102277 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/move_gripper.py
+W20250304 11:22:41.108857 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/read_odom_anchor.py
+W20250304 11:22:41.110453 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/move_gripper.py
+W20250304 11:22:41.123816 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python//read_and_output_monitor_region.py
+W20250304 11:22:41.132195 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/calculate_place_waypoint.py
+W20250304 11:22:41.141134 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/record_collision_stats.py
+W20250304 11:22:41.147229 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/read_first_pattern_of_next_wall.py
+W20250304 11:22:41.166035 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/convert_dof_to_pos.py
+W20250304 11:22:41.166167 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/move_gripper.py
+W20250304 11:22:41.169162 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/remove_odom_anchor.py
+W20250304 11:22:41.192541 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/add_x_offset.py
+W20250304 11:22:41.205644 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/decide_if_ignore_margin_location.py
+W20250304 11:22:41.206359 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/convert_dof_to_pos.py
+W20250304 11:22:41.220083 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/fuse_relocation_result.py
+W20250304 11:22:41.237699 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/remove_collision_stats_file.py
+W20250304 11:22:41.247977 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/check_if_near_truck_tail.py
+W20250304 11:22:41.252647 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/plc_set_incoming_num.py
+W20250304 11:22:41.263353 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python//calculate_and_update_monitor_region.py
+W20250304 11:22:41.272553 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/get_container_length_from_order.py
+W20250304 11:22:41.278710 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/decide_pick_face_preference.py
+W20250304 11:22:41.282972 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/check_incoming_items.py
+W20250304 11:22:41.289274 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/cal_postpick_angle_based_on_slope.py
+W20250304 11:22:41.306385 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/check_container_property.py
+I20250304 11:22:41.314821 1668381 FlowView.cpp:618] auto scale
+W20250304 11:22:41.326867 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/calculate_place_waypoint.py
+W20250304 11:22:41.344521 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/get_place_pattern_from_plan_result.py
+W20250304 11:22:41.344822 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/decide_pick_face_preference.py
+W20250304 11:22:41.357733 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/try_to_reuse_result.py
+W20250304 11:22:41.359900 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/call_load_workspace_info.py
+W20250304 11:22:41.360149 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/cal_postpick_angle_based_on_slope.py
+W20250304 11:22:41.372797 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/check_if_use_scanned_container.py
+W20250304 11:22:41.376668 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/calculate_pick_num.py
+W20250304 11:22:41.378087 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/get_latest_slot_path.py
+W20250304 11:22:41.388734 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/record_planning_stats.py
+W20250304 11:22:41.391005 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/calc_best_base.py
+W20250304 11:22:41.391901 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/get_place_pattern_from_plan_result.py
+W20250304 11:22:41.399288 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/read_scan_container_data.py
+I20250304 11:22:41.402120 1668381 FlowView.cpp:618] auto scale
+I20250304 11:22:41.441388 1668381 main_window.cpp:1063] [init] project loaded, project_name=std_truck_loading
+W20250304 11:22:41.444036 1668381 hmi_info.cpp:67] Hmi info file path: hmi/hmi_info.json does not exist.
+W20250304 11:22:41.444067 1668381 hmi_info.cpp:67] Hmi info file path: hmi/hmi_info.json does not exist.
+I20250304 11:22:41.444140 1668381 hmi_page.cpp:241] Resetting dock status.
+I20250304 11:22:41.507200 1668381 FlowView.cpp:618] auto scale
+W20250304 11:22:41.510094 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/move_to_home_choice_decider.py
+W20250304 11:22:41.510845 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/get_gripper_pos.py
+I20250304 11:22:41.511494 1668381 FlowView.cpp:618] auto scale
+W20250304 11:22:41.516884 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/move_gripper.py
+W20250304 11:22:41.517673 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/check_if_relocation_done.py
+W20250304 11:22:41.518126 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/create_odom_anchor.py
+W20250304 11:22:41.518693 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/relocation_based_on_odom.py
+W20250304 11:22:41.518812 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/move_gripper.py
+W20250304 11:22:41.519181 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/read_odom_anchor.py
+W20250304 11:22:41.520546 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/move_gripper.py
+W20250304 11:22:41.520606 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python//read_and_output_monitor_region.py
+W20250304 11:22:41.520725 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/calculate_place_waypoint.py
+W20250304 11:22:41.520932 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/record_collision_stats.py
+W20250304 11:22:41.521086 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/read_first_pattern_of_next_wall.py
+W20250304 11:22:41.523845 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/convert_dof_to_pos.py
+W20250304 11:22:41.523903 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/move_gripper.py
+W20250304 11:22:41.523989 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/remove_odom_anchor.py
+W20250304 11:22:41.524159 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/add_x_offset.py
+W20250304 11:22:41.524245 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/decide_if_ignore_margin_location.py
+W20250304 11:22:41.524555 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/convert_dof_to_pos.py
+W20250304 11:22:41.524727 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/fuse_relocation_result.py
+W20250304 11:22:41.524801 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/remove_collision_stats_file.py
+W20250304 11:22:41.525126 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/check_if_near_truck_tail.py
+W20250304 11:22:41.526063 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/plc_set_incoming_num.py
+W20250304 11:22:41.526248 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python//calculate_and_update_monitor_region.py
+W20250304 11:22:41.526424 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/get_container_length_from_order.py
+W20250304 11:22:41.526523 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/decide_pick_face_preference.py
+W20250304 11:22:41.526844 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/check_incoming_items.py
+W20250304 11:22:41.526985 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/cal_postpick_angle_based_on_slope.py
+W20250304 11:22:41.527612 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/check_container_property.py
+I20250304 11:22:41.531531 1668381 FlowView.cpp:618] auto scale
+W20250304 11:22:41.537492 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/calculate_place_waypoint.py
+W20250304 11:22:41.538157 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/get_place_pattern_from_plan_result.py
+W20250304 11:22:41.538229 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/decide_pick_face_preference.py
+W20250304 11:22:41.538606 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/try_to_reuse_result.py
+W20250304 11:22:41.538712 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/call_load_workspace_info.py
+W20250304 11:22:41.538801 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/cal_postpick_angle_based_on_slope.py
+W20250304 11:22:41.540531 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/check_if_use_scanned_container.py
+W20250304 11:22:41.540968 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/calculate_pick_num.py
+W20250304 11:22:41.541507 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/get_latest_slot_path.py
+W20250304 11:22:41.541813 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/record_planning_stats.py
+W20250304 11:22:41.541887 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/calc_best_base.py
+W20250304 11:22:41.542474 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/get_place_pattern_from_plan_result.py
+W20250304 11:22:41.543195 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/read_scan_container_data.py
+I20250304 11:22:41.544955 1668381 FlowView.cpp:618] auto scale
+I20250304 11:22:41.549376 1668381 FlowView.cpp:618] auto scale
+W20250304 11:22:41.552279 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/move_to_home_choice_decider.py
+W20250304 11:22:41.553048 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/get_gripper_pos.py
+I20250304 11:22:41.553707 1668381 FlowView.cpp:618] auto scale
+W20250304 11:22:41.559212 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/move_gripper.py
+W20250304 11:22:41.560024 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/check_if_relocation_done.py
+W20250304 11:22:41.560495 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/create_odom_anchor.py
+W20250304 11:22:41.561079 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/relocation_based_on_odom.py
+W20250304 11:22:41.561195 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/move_gripper.py
+W20250304 11:22:41.561599 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/read_odom_anchor.py
+W20250304 11:22:41.563035 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/move_gripper.py
+W20250304 11:22:41.563104 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python//read_and_output_monitor_region.py
+W20250304 11:22:41.563225 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/calculate_place_waypoint.py
+W20250304 11:22:41.563452 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/record_collision_stats.py
+W20250304 11:22:41.563588 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/read_first_pattern_of_next_wall.py
+W20250304 11:22:41.566365 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/convert_dof_to_pos.py
+W20250304 11:22:41.566423 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/move_gripper.py
+W20250304 11:22:41.566484 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/remove_odom_anchor.py
+W20250304 11:22:41.566679 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/add_x_offset.py
+W20250304 11:22:41.566753 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/decide_if_ignore_margin_location.py
+W20250304 11:22:41.567178 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/convert_dof_to_pos.py
+W20250304 11:22:41.567390 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/fuse_relocation_result.py
+W20250304 11:22:41.567466 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/remove_collision_stats_file.py
+W20250304 11:22:41.567806 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/check_if_near_truck_tail.py
+W20250304 11:22:41.568749 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/plc_set_incoming_num.py
+W20250304 11:22:41.568922 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python//calculate_and_update_monitor_region.py
+W20250304 11:22:41.569087 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/get_container_length_from_order.py
+W20250304 11:22:41.569185 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/decide_pick_face_preference.py
+W20250304 11:22:41.569502 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/check_incoming_items.py
+W20250304 11:22:41.569651 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/cal_postpick_angle_based_on_slope.py
+W20250304 11:22:41.570290 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/check_container_property.py
+I20250304 11:22:41.574026 1668381 FlowView.cpp:618] auto scale
+W20250304 11:22:41.579583 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/calculate_place_waypoint.py
+W20250304 11:22:41.580147 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/get_place_pattern_from_plan_result.py
+W20250304 11:22:41.580219 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/decide_pick_face_preference.py
+W20250304 11:22:41.580545 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/try_to_reuse_result.py
+W20250304 11:22:41.580639 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/call_load_workspace_info.py
+W20250304 11:22:41.580734 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/cal_postpick_angle_based_on_slope.py
+W20250304 11:22:41.582440 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/check_if_use_scanned_container.py
+W20250304 11:22:41.582876 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/calculate_pick_num.py
+W20250304 11:22:41.583418 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/get_latest_slot_path.py
+W20250304 11:22:41.583727 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/record_planning_stats.py
+W20250304 11:22:41.583811 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/calc_best_base.py
+W20250304 11:22:41.584278 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/get_place_pattern_from_plan_result.py
+W20250304 11:22:41.585018 1668381 PythonNodeModel.cpp:103] Store Script from path tasks/python/read_scan_container_data.py
+I20250304 11:22:41.586748 1668381 FlowView.cpp:618] auto scale
+I20250304 11:22:41.683951 1668381 task_manager_widget.cpp:287] filter process size:  2
+I20250304 11:22:41.683993 1668381 task_manager_widget.cpp:302] python process: toshy_config
+I20250304 11:22:41.821731 1668381 task_manager_widget.cpp:670] [proc] run <barcode_scanner_server:1668736>, command: python -u /home/xyz/xyz-studio-max/1.10.1-pre.14/bin/barcode_scanner_server.py
+I20250304 11:22:42.031201 1668381 task_manager_widget.cpp:670] [proc] run <hmi:1668738>, command: python -u /home/xyz/xyz-studio-max/1.10.1-pre.14/bin/hmi.py
+I20250304 11:22:42.844465 1668381 main_window.cpp:674] HMI process started, will reload web hmi page.
+I20250304 11:22:42.844564 1668381 hmi_web_page.cpp:179] [MAX-HMI] Wait-HMI-process-ready thread stops for file:////home/xyz/xyz-studio-max/1.10.1-pre.14/lib/python/dist-packages/xyz_max_hmi_front/statics/index.html#/preview
+I20250304 11:22:42.844655 1668381 hmi_web_page.cpp:174] [MAX-HMI] Wait-HMI-process-ready thread starts for file:////home/xyz/xyz-studio-max/1.10.1-pre.14/lib/python/dist-packages/xyz_max_hmi_front/statics/index.html#/preview
+I20250304 11:22:42.865530 1668381 task_manager_widget.cpp:670] [proc] run <hmi_server:1668762>, command: python -u /home/xyz/xyz-studio-max/1.10.1-pre.14/bin/hmi_server.py
+I20250304 11:22:43.370766 1668381 task_manager_widget.cpp:670] [proc] run <io_server_main:1668770>, command: python -u /home/xyz/xyz-studio-max/1.10.1-pre.14/bin/io_server_main.py
+E20250304 11:22:43.738808 1668381 task_manager_widget.cpp:414] [debug] add: mobile_robot_driver_node

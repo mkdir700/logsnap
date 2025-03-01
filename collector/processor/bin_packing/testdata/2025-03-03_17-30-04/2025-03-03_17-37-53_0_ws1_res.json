@@ -1,0 +1,2915 @@
+{
+  "bin_height": 1.75,
+  "buffer_list_vec": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "choice_rank_list": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "pallet_length": 1.0,
+  "pallet_width": 1.1399999856948853,
+  "placing_results": [
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.25,
+                        "y": -0.3799999999999999,
+                        "z": 0.1399999999999998
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      0,
+                      0,
+                      50,
+                      38,
+                      280
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.15,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.25,
+                        "y": -0.3799999999999999,
+                        "z": 0.07499999999999996
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      0,
+                      0,
+                      100,
+                      38,
+                      150
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.15,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.24999999999999983,
+                        "y": 3.1086244689504383e-15,
+                        "z": 0.0749999999999999
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      38,
+                      0,
+                      100,
+                      76,
+                      150
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.2500000000000001,
+                        "y": 0.37999999999999967,
+                        "z": 0.14000000000000024
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      76,
+                      0,
+                      50,
+                      114,
+                      280
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.25000000000000017,
+                        "y": -2.6645352591003757e-15,
+                        "z": 0.14000000000000012
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      38,
+                      0,
+                      50,
+                      76,
+                      280
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.15,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.2500000000000002,
+                        "y": 0.3799999999999999,
+                        "z": 0.07500000000000001
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      76,
+                      0,
+                      100,
+                      114,
+                      150
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.25,
+                        "y": -4.440892098500626e-16,
+                        "z": 0.41999999999999993
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      38,
+                      280,
+                      50,
+                      76,
+                      560
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.25,
+                        "y": -0.38000000000000256,
+                        "z": 0.42000000000000004
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      0,
+                      280,
+                      50,
+                      38,
+                      560
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.2499999999999995,
+                        "y": -0.37999999999999945,
+                        "z": 0.2899999999999999
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      0,
+                      150,
+                      100,
+                      38,
+                      430
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.24999999999999933,
+                        "y": 3.1086244689504383e-15,
+                        "z": 0.29
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      38,
+                      150,
+                      100,
+                      76,
+                      430
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.15,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.25000000000000044,
+                        "y": 0.3800000000000001,
+                        "z": 0.2250000000000001
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      76,
+                      150,
+                      100,
+                      114,
+                      300
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.25,
+                        "y": -2.220446049250313e-16,
+                        "z": 0.7
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      38,
+                      560,
+                      50,
+                      76,
+                      840
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.2499999999999995,
+                        "y": -0.38000000000000256,
+                        "z": 0.7
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      0,
+                      560,
+                      50,
+                      38,
+                      840
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.25000000000000017,
+                        "y": 0.3800000000000001,
+                        "z": 0.41999999999999993
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      76,
+                      280,
+                      50,
+                      114,
+                      560
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.15,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.25,
+                        "y": 0.37999999999999967,
+                        "z": 0.375
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      76,
+                      300,
+                      100,
+                      114,
+                      450
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.24999999999999975,
+                        "y": 0.3800000000000001,
+                        "z": 0.6999999999999997
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      76,
+                      560,
+                      50,
+                      114,
+                      840
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.15,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.2499999999999998,
+                        "y": -0.38000000000000034,
+                        "z": 0.5050000000000001
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      0,
+                      430,
+                      100,
+                      38,
+                      580
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.15,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.24999999999999953,
+                        "y": 2.4424906541753444e-15,
+                        "z": 0.5050000000000002
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      38,
+                      430,
+                      100,
+                      76,
+                      580
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.15,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.24999999999999972,
+                        "y": 0.3800000000000001,
+                        "z": 0.525
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      76,
+                      450,
+                      100,
+                      114,
+                      600
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.25000000000000006,
+                        "y": 2.220446049250313e-16,
+                        "z": 0.7200000000000003
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      38,
+                      580,
+                      100,
+                      76,
+                      860
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.24999999999999978,
+                        "y": -0.38000000000000256,
+                        "z": 0.7200000000000002
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      0,
+                      580,
+                      100,
+                      38,
+                      860
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.15,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.24999999999999997,
+                        "y": 0.3800000000000001,
+                        "z": 0.6750000000000002
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      76,
+                      600,
+                      100,
+                      114,
+                      750
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.15,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.2500000000000002,
+                        "y": 0.3799999999999999,
+                        "z": 0.8250000000000001
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      76,
+                      750,
+                      100,
+                      114,
+                      900
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.25,
+                        "y": 6.661338147750939e-16,
+                        "z": 0.9800000000000001
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      38,
+                      840,
+                      50,
+                      76,
+                      1120
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.24999999999999983,
+                        "y": -0.3800000000000021,
+                        "z": 0.9800000000000002
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      0,
+                      840,
+                      50,
+                      38,
+                      1120
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.15,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.24999999999999964,
+                        "y": 0.37999999999999945,
+                        "z": 0.9149999999999999
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      76,
+                      840,
+                      50,
+                      114,
+                      990
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.2500000000000001,
+                        "y": -0.3799999999999999,
+                        "z": 1
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      0,
+                      860,
+                      100,
+                      38,
+                      1140
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.25000000000000006,
+                        "y": 4.440892098500626e-16,
+                        "z": 0.9999999999999999
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      38,
+                      860,
+                      100,
+                      76,
+                      1140
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.24999999999999978,
+                        "y": 2.220446049250313e-16,
+                        "z": 1.2600000000000002
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      38,
+                      1120,
+                      50,
+                      76,
+                      1400
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.24999999999999944,
+                        "y": -0.38000000000000167,
+                        "z": 1.2600000000000002
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      0,
+                      1120,
+                      50,
+                      38,
+                      1400
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.15,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.2500000000000001,
+                        "y": 0.3799999999999992,
+                        "z": 0.9750000000000002
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      76,
+                      900,
+                      100,
+                      114,
+                      1050
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.15,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.24999999999999972,
+                        "y": 0.3799999999999999,
+                        "z": 1.065
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      76,
+                      990,
+                      50,
+                      114,
+                      1140
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.15,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.25000000000000017,
+                        "y": 0.3799999999999999,
+                        "z": 1.2149999999999999
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      76,
+                      1140,
+                      50,
+                      114,
+                      1290
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.25000000000000006,
+                        "y": -0.3800000000000008,
+                        "z": 1.2799999999999998
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      0,
+                      1140,
+                      100,
+                      38,
+                      1420
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.24999999999999983,
+                        "y": 1.9984014443252818e-15,
+                        "z": 1.2799999999999998
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      38,
+                      1140,
+                      100,
+                      76,
+                      1420
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.15,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.24999999999999983,
+                        "y": 0.3799999999999999,
+                        "z": 1.1250000000000004
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      76,
+                      1050,
+                      100,
+                      114,
+                      1200
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.24999999999999997,
+                        "y": -0.3799999999999999,
+                        "z": 1.54
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      0,
+                      1400,
+                      50,
+                      38,
+                      1680
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.2500000000000002,
+                        "y": 2.4424906541753444e-15,
+                        "z": 1.54
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      38,
+                      1400,
+                      50,
+                      76,
+                      1680
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.25000000000000006,
+                        "y": -0.3799999999999999,
+                        "z": 1.5600000000000005
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      0,
+                      1420,
+                      100,
+                      38,
+                      1700
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.25,
+                        "y": 2.220446049250313e-16,
+                        "z": 1.5600000000000005
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      38,
+                      1420,
+                      100,
+                      76,
+                      1700
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.15,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.25,
+                        "y": 0.3799999999999999,
+                        "z": 1.275
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      76,
+                      1200,
+                      100,
+                      114,
+                      1350
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.15,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.24999999999999994,
+                        "y": 0.3800000000000001,
+                        "z": 1.3649999999999998
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      76,
+                      1290,
+                      50,
+                      114,
+                      1440
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": 0.25000000000000056,
+                        "y": 0.37999999523162553,
+                        "z": 1.4899999999999998
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      50,
+                      76,
+                      1350,
+                      100,
+                      114,
+                      1630
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    },
+    {
+      "workspace_res": [
+        {
+          "pallet_res": [
+            {
+              "box_res": [
+                {
+                  "box": {
+                    "barcode_direction": 0,
+                    "box_original_uid": "",
+                    "box_uid": "",
+                    "direction_constraint": [],
+                    "direction_options": [],
+                    "height": 0.28,
+                    "length": 0.5,
+                    "load_bearing": -1,
+                    "order_id": "x",
+                    "pose": {
+                      "orientation": {
+                        "w": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "position": {
+                        "x": -0.24999999999999994,
+                        "y": 0.3799999999999999,
+                        "z": 1.5799999999999996
+                      }
+                    },
+                    "tags": [],
+                    "tf_tool_box": [],
+                    "tip_id": [],
+                    "to_workspace_ids": [],
+                    "tool_id": [],
+                    "type": "box",
+                    "vertex_pose": [
+                      0,
+                      76,
+                      1440,
+                      50,
+                      114,
+                      1720
+                    ],
+                    "weight": 0,
+                    "width": 0.38
+                  },
+                  "buffer_id": -1,
+                  "choice_rank": 0,
+                  "load_bearing": 0,
+                  "place_tool": [],
+                  "pre_place_tool": [],
+                  "score": -1,
+                  "tip_id": [],
+                  "tool_id": []
+                }
+              ],
+              "layer_full": false
+            }
+          ],
+          "workspace_id": 1
+        }
+      ]
+    }
+  ]
+}

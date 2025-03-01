@@ -1,0 +1,21 @@
+{
+  "latest_versions": {
+    "stable": "0.0.2",
+    "beta": "0.0.2-beta",
+    "dev": "0.0.2-dev"
+  },
+  "download_urls": {
+    "stable": {
+      "windows": "",
+      "linux": "http://0.0.0.0:5500/bin/logsnap.zip",
+      "darwin": "http://0.0.0.0:5500/bin/logsnap.zip"
+    },
+    "beta": {
+      "windows": "https://github.com/mkdir700/xyz-logsnap/releases/download/v0.1.1-beta/logsnap-0.1.1-beta-windows-amd64.zip",
+      "linux": "https://github.com/mkdir700/xyz-logsnap/releases/download/v0.1.1-beta/logsnap-0.1.1-beta-linux-amd64.zip",
+      "darwin": "https://github.com/mkdir700/xyz-logsnap/releases/download/v0.1.1-beta/logsnap-0.1.1-beta-darwin-amd64.zip"
+    }
+  },
+  "force_update": true,
+  "update_message": "发现严重安全漏洞，必须更新到最新版本才能继续使用！"
+}
