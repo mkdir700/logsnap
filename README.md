@@ -21,6 +21,40 @@ LogSnap 设计为可扩展的插件式架构，主要由以下组件构成：
 
 3. **Uploader**: 上传组件，支持将日志上传到不同的存储服务
 
+```mermaid
+graph TD
+
+%% 主要组件
+
+CLI[命令行界面CLI]
+
+Service[核心服务Service]
+
+Collector[日志收集器Collector]
+
+Processor[日志处理器Processor]
+
+Uploader[上传服务Uploader]
+
+%% 连接关系
+
+CLI -->|解析参数| Service
+
+Service -->|创建收集器| Collector
+
+Service -->|配置上传| Uploader
+
+Collector -->|使用| Processor
+
+%% 样式
+
+classDef core fill:#f9f,stroke:#333,stroke-width:2px;
+
+class CLI,Service,Collector,Processor,Uploader core;
+```
+
+> 完整架构设计请参考 [architecture.md](architecture.md)
+
 ## 🛠️ 开发指南
 
 ### 自定义处理器开发
