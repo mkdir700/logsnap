@@ -132,6 +132,11 @@ func (c *Collector) Collect(startTime, endTime time.Time) (string, error) {
 		return "", fmt.Errorf("结束时间不能早于开始时间")
 	}
 
+	// 创建快照目录名
+	snapFileDirName := fmt.Sprintf("logsnap_%s_%s", startTime.Format("20060102_150405"),
+		endTime.Format("20060102_150405"))
+	snapFileZipName := fmt.Sprintf("%s.zip", snapFileDirName)
+
 	// 创建临时目录用于处理日志文件
 	tempDir, err := os.MkdirTemp("", "logsnap_*")
 	if err != nil {
@@ -140,7 +145,13 @@ func (c *Collector) Collect(startTime, endTime time.Time) (string, error) {
 	// 函数结束时删除临时目录
 	defer os.RemoveAll(tempDir)
 
-	logrus.Infof("使用临时处理目录: %s", tempDir)
+	// 创建快照目录
+	targetDir := filepath.Join(tempDir, snapFileDirName)
+	if err := os.Mkdir(targetDir, 0700); err != nil {
+		return "", fmt.Errorf("创建快照目录失败: %w", err)
+	}
+
+	logrus.Infof("使用快照目录: %s", targetDir)
 
 	// 查看有多少个处理器
 	processorCount := len(c.logProcessors)
@@ -165,7 +176,7 @@ func (c *Collector) Collect(startTime, endTime time.Time) (string, error) {
 				wg.Done()
 			}()
 
-			outputPath, results, err := p.Collect(startTime, endTime, tempDir)
+			outputPath, results, err := p.Collect(startTime, endTime, targetDir)
 			logrus.Debugf("协程 #%d Collect 方法返回，处理器: %s, 输出路径: %s, 结果数: %d, 错误: %v",
 				index+1, name, outputPath, len(results), err)
 
@@ -230,12 +241,12 @@ func (c *Collector) Collect(startTime, endTime time.Time) (string, error) {
 
 	hasFiles := totalLineCount > 0 && totalMatchCount > 0
 
-	// 检查临时目录中的文件
-	files, err := os.ReadDir(tempDir)
+	// 检查快照目录中的文件
+	files, err := os.ReadDir(targetDir)
 	if err != nil {
-		logrus.Warnf("无法读取临时目录: %v", err)
+		logrus.Warnf("无法读取快照目录: %v", err)
 	} else {
-		logrus.Infof("临时目录中有 %d 个文件/目录:", len(files))
+		logrus.Infof("快照目录中有 %d 个文件/目录:", len(files))
 		for _, f := range files {
 			info, _ := f.Info()
 			if info != nil {
@@ -252,11 +263,6 @@ func (c *Collector) Collect(startTime, endTime time.Time) (string, error) {
 		return "", fmt.Errorf("指定时间范围内没有找到任何日志")
 	}
 
-	// 创建快照文件名
-	snapFile := fmt.Sprintf("logsnap_%s_%s.zip",
-		startTime.Format("20060102_150405"),
-		endTime.Format("20060102_150405"))
-
 	// 确定最终ZIP文件的路径
 	var snapPath string
 	if c.outputDir != "" {
@@ -264,10 +270,10 @@ func (c *Collector) Collect(startTime, endTime time.Time) (string, error) {
 		if err := os.MkdirAll(c.outputDir, 0755); err != nil {
 			return "", fmt.Errorf("创建输出目录失败: %w", err)
 		}
-		snapPath = filepath.Join(c.outputDir, snapFile)
+		snapPath = filepath.Join(c.outputDir, snapFileZipName)
 	} else {
 		// 使用当前目录
-		snapPath = snapFile
+		snapPath = snapFileZipName
 	}
 
 	logrus.Infof("开始创建ZIP文件: %s", snapPath)

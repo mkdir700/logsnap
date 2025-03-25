@@ -57,15 +57,15 @@ func NewService(config *Config, uploadConfig *remote.UploadConfig) *Service {
 	return service
 }
 
-// UploadLogs 上传日志文件
-func (s *Service) UploadLogs(files []*LogFile, description string, tags []string) (*UploadResult, error) {
-	if len(files) == 0 {
+// UploadLogSnapFile 上传日志文件
+func (s *Service) UploadLogSnapFile(file *LogFile, description string, tags []string) (*UploadResult, error) {
+	if file == nil {
 		return nil, fmt.Errorf("没有要上传的文件")
 	}
 
 	// 创建上传请求
 	request := &UploadRequest{
-		Files:       files,
+		File:        file,
 		Config:      s.UploadConfig,
 		Reporter:    s.progressReporter,
 		Description: description,
@@ -257,7 +257,7 @@ func CollectAndUploadLogs(config *Config, uploadConfig *remote.UploadConfig) (st
 	}
 
 	// 上传文件
-	result, err := service.UploadLogs([]*LogFile{logFile}, "通过CLI上传的日志", nil)
+	result, err := service.UploadLogSnapFile(logFile, "通过CLI上传的日志", nil)
 	if err != nil {
 		return snapPath, "", fmt.Errorf("上传日志失败: %v", err)
 	}
