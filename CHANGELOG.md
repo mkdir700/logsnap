@@ -5,6 +5,15 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)，
 并且本项目遵循 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [v0.5.0] - 2025-03-25
+
+- :bookmark: Bump version to 0.5.0 (98f9b00)
+- :recycle: 重构日志收集和上传逻辑 (fa44cde)
+- :page_facing_up: Create LICENSE (9da9e9e)
+- :memo: 新增架构设计图 (46c0d6c)
+- :memo: 更新自述文件 (5a08e5f)
+
+
 ## [v0.4.1] - 2025-03-20
 
 - :bookmark: Bump version to 0.4.1 (71a64fb)
